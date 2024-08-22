@@ -1,14 +1,13 @@
 package edu.misena.senaviewer.model;
-
 import java.util.Date;
 
 public class Serie {
     public String id;
     public static String title;
     public static String genre;
-    public String creator;
+    public static String creator;
     public static String duration;
-    public Date year;
+    public static Date year;
     public int viewed;
     public int timeViewed;
     public int sessionQuantity;
@@ -35,7 +34,6 @@ public class Serie {
 
     public  void setDuration(String duration) {
         this.duration = duration;
-
     }
 }
 

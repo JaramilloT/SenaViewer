@@ -2,11 +2,11 @@ package edu.misena.senaviewer.model;
 
 public class Book {
     public String id;
-    public String title;
-    public String editionDate;
-    public String editorial;
-    public String authors;
-    public String isbn;
+    public static String title;
+    public static String editionDate;
+    public static String editorial;
+    public  String authors;
+    public static String isbn;
     public boolean readed;
     public int timeReaded;
 
@@ -17,11 +17,17 @@ public class Book {
         this.isbn =isbn;
     }
 
-    public String getTitle() {
+    public static String getTitle() {
         return title;
     }
-    public String getEditionDate() {
+    public static String getEditionDate() {
         return editionDate;
+    }
+    public static String getEditorial() {
+        return editorial;
+    }
+    public static String getIsbn() {
+        return isbn;
     }
 
 

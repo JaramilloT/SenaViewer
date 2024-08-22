@@ -4,9 +4,9 @@ import java.util.Date;
 
 public class Magazine {
     public String id;
-    public String title;
-    public String edititionDate;
-    public String editorial;
+    public static String title;
+    public static String edititionDate;
+    public static String editorial;
     public String authors;
 
 
@@ -16,11 +16,14 @@ public class Magazine {
         this.editorial = editorial;
     }
 
-    public String getTitle() {
+    public static String getTitle() {
         return title;
     }
-    public String getEdititionDate() {
+    public static String getEditionDate() {
         return edititionDate;
+    }
+    public static String getEditorial() {
+        return editorial;
     }
 
 
