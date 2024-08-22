@@ -3,6 +3,9 @@ package edu.misena.senaviewer.model;
 import java.util.Date;
 
 public class Movie {
+
+
+
     public String id;
     public static String title;
     public static String genre;

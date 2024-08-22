@@ -4,29 +4,41 @@ import java.util.Date;
 
 public class Chapter {
     public String id;
-    public String title;
-    public String duration;
-    public Date year;
+    public static String title;
+    public static String duration;
+    public static int year;
     public int viewed;
     public int timeViewed;
     public int sessionNumber;
 
 
-    public Chapter(String title,String duration, Date year){
-        this.title =title;
-        this.duration =duration;
-        this.year =year;
+    public Chapter(String title, String duration, int year) {
+        this.title = title;
+        this.duration = duration;
+        this.year = year;
     }
 
-    public String getTitle() {
+    public static String getTitle() {
         return title;
     }
-    public String getDuration() {
+
+    public static String getDuration() {
         return duration;
     }
 
+    public static int getYear() {
+        return year;
+    }
 
-    public void setYear(Date year) {
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setDuration(String duration) {
+        this.duration = duration;
+    }
+    public void setYear(int year) {
         this.year = year;
     }
+
 }

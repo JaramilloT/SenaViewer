@@ -6,11 +6,11 @@ public class Book {
     public static String editionDate;
     public static String editorial;
     public  String authors;
-    public static String isbn;
+    public static int isbn;
     public boolean readed;
     public int timeReaded;
 
-    public Book(String title, String editionDate, String editorial, String isbn){
+    public Book(String title, String editionDate, String editorial, int isbn){
         this.title =title;
         this.editionDate =editionDate;
         this.editorial =editorial;
@@ -26,15 +26,21 @@ public class Book {
     public static String getEditorial() {
         return editorial;
     }
-    public static String getIsbn() {
+    public static int getIsbn() {
         return isbn;
     }
 
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setEditionDate(String editionDate) {
+        this.editionDate = editionDate;
+    }
     public void setEditorial(String editorial) {
         this.editorial = editorial;
     }
-    public void setIsbn(String isbn) {
+    public void setIsbn(int isbn) {
         this.isbn = isbn;
     }
 }
