@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efaa814c-8377-4549-8379-453bb77b6c1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/agregarBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Chapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +31,12 @@
     &quot;assignee&quot;: &quot;JaramilloT&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JaramilloT/SenaViewer.git",
-    "accountId": "d3d89b7d-87f9-40dc-b5c7-e178dcc8aba3"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JaramilloT/SenaViewer.git&quot;,
+    &quot;accountId&quot;: &quot;d3d89b7d-87f9-40dc-b5c7-e178dcc8aba3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -54,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/temp/SenaViewer"
+    "last_opened_file_path": "C:/temp/jara/SenaViewer"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
