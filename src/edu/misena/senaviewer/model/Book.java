@@ -1,6 +1,6 @@
 package edu.misena.senaviewer.model;
 
-public class Book {
+public class Book extends Publication{
     public String id;
     public static String title;
     public static String editionDate;
@@ -10,13 +10,18 @@ public class Book {
     public boolean readed;
     public int timeReaded;
 
+    public Book(String title,String editionDate, String editorial, int isbn) {
+        super (title, editionDate, editorial);
+        this.isbn = isbn;
+    }
+    /**
     public Book(String title, String editionDate, String editorial, int isbn){
         this.title =title;
         this.editionDate =editionDate;
         this.editorial =editorial;
         this.isbn =isbn;
     }
-
+**/
     public static String getTitle() {
         return title;
     }
@@ -42,5 +47,15 @@ public class Book {
     }
     public void setIsbn(int isbn) {
         this.isbn = isbn;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id='" + id + '\'' +
+                ", authors='" + authors + '\'' +
+                ", readed=" + readed +
+                ", timeReaded=" + timeReaded +
+                '}';
     }
 }

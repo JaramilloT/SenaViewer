@@ -38,5 +38,18 @@ public class Film {
     public void sedTitle(String title) {
         this.title = title;
     }
+    public void setCreator(String creator) {
+        this.creator = creator;
+    }
+    public void setDuration(String duration) {
+        this.duration = duration;
+    }
 
+    @Override
+    public String toString() {
+        return "Film{" +
+                "id='" + id + '\'' +
+                "viewed=" + viewed +
+                '}';
+    }
 }

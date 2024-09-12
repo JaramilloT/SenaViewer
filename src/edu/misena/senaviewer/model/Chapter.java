@@ -21,11 +21,9 @@ public class Chapter {
     public static String getTitle() {
         return title;
     }
-
     public static String getDuration() {
         return duration;
     }
-
     public static int getYear() {
         return year;
     }
@@ -41,4 +39,13 @@ public class Chapter {
         this.year = year;
     }
 
+    @Override
+    public String toString() {
+        return "Chapter{" +
+                "id='" + id + '\'' +
+                ", viewed=" + viewed +
+                ", timeViewed=" + timeViewed +
+                ", sessionNumber=" + sessionNumber +
+                '}';
+    }
 }

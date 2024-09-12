@@ -8,6 +8,7 @@ public class Main {
         agregarBook.metodosBooks booksMethods = new agregarBook.metodosBooks(); // Instancia de metodosBooks
 
         Movie movie = new Movie("Spider-Man", "Accion", "Stan Lee", "3:00", 2008);
+        Serie serie = new Serie("La Ley de los audaces", "Accion", "yotas", "8Temporadas");
         Book book = new Book("A dos metros de ti", "(21/03/2019)", "Nube de Tinta: 001 edición (21 Marzo 2019)", 841605029);
         Magazine magazine = new Magazine("Vogue", " 17 de diciembre de 1892", " Conde Nast Publications Inc");
         Chapter chapter = new Chapter("hola", "1:00", 2000);
